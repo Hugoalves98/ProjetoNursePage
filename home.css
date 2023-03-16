@@ -193,7 +193,7 @@ p {
 
 .creator {
     margin: 30px 0px 30px 60px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
     font-weight: 300;
     color: #000;
@@ -224,4 +224,32 @@ p {
     color: #029e3b;
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
+}
+
+/* Layout da tela Parto Humanizado */
+
+.partoDivum {
+    text-align: -webkit-center;
+    min-height: 39px;
+    height: auto;
+    
+}
+
+.partoTitle {
+    margin-top: 25px;
+    font-size: 40px;
+    color: #A02C4D;
+    width: 75%;
+    font-family: 'Montez', cursive;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.description {
+    font-size: 16;
+    font-style: italic;
+    color: #000;
+    line-height: 1.6em;
+    letter-spacing: normal;
+    font-weight: 200;
 }
