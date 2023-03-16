@@ -19,13 +19,13 @@
 
 .nomeEnfermeira {
     color: #552E92;
-    font-size: 94px;
+    font-size: 6rem;
     font-family: 'Courier New', Courier, monospace; 
 }
 
 .especialidadeEnfe {
     color: #A02C4D;
-    font-size: 30px;
+    font-size: 2rem;
     margin-left: 150px;
 }
 
@@ -33,11 +33,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.animacao {
+    padding: 7px 25px 7px 25px;
+}
+
 .animacao:hover {
     cursor: pointer;
     background-color: palevioletred;
-    -webkit-animation: fadeinout 3s linear forwards;
-    animation: fadeinout 4s linear forwards;
+    border-radius: 1rem;
+    -webkit-animation: fadeinout 3s linear forwards infinite;
+    animation: fadeinout 4s linear forwards infinite;
 }
 
 @-webkit-keyframes fadeinout {
@@ -66,18 +71,18 @@
 }
 
 .contentquartaDiv {
-    max-width: 250px;
+    max-width: auto;
     width: auto;
     height: auto;
     margin: 26px 0px 14px 50px;
     letter-spacing: 1px;
-    font-size: 60px;
+    font-size: 2rem;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contentdoisquartaDiv {
-    width: 350px;
+    width: 310px;
     height: auto;
     margin: 26px 0px 0px 50px;
     font-size: 22px;
