@@ -246,10 +246,71 @@ p {
 }
 
 .description {
-    font-size: 16;
+    font-size: 15px;
     font-style: italic;
     color: #000;
     line-height: 1.6em;
     letter-spacing: normal;
     font-weight: 200;
+}
+
+.partoDivdois {
+    text-align: center;
+    min-height: 39px;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 85px;
+}
+
+.contentLeft {
+    text-align: left;
+    width: 60%;
+}
+
+.firstContentParto {
+    width: 90%;
+    margin-left: 15%;
+}
+
+.secondContentParto {
+    width: 90%;
+    margin-left: 15%;
+}
+
+.contentPartoTitle {
+    background-color: #6D3AB0;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    line-height: 1.6em;
+    font-family: 'Amatic SC', cursive;
+}
+
+ul {
+    text-align: left;
+    font-size: 16px;
+    list-style-type: disc;
+    letter-spacing: normal;
+    line-height: 1.6rem;
+    padding-left: 1.3em;
+    padding-right: 0;
+    font-weight: 200;
+    color: #000;
+    text-align: justify;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6rem;
+    font-weight: 200;
+    color: #000;
+    text-align: justify;
+}
+
+.contentRight {
+    text-align: left;
+    width: 60%;
 }
