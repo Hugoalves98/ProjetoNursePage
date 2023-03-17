@@ -139,7 +139,7 @@ p {
 
 .sextaDiv {
     position: static;
-    display: grid;
+    display: flex;
     height: auto;
     width: 100%;
     min-height: auto;
@@ -152,7 +152,7 @@ p {
 }
 
 .firstcontentsextaDivTitle {
-    width: 30%;
+    width: 50%;
     font-size: 40px;
     letter-spacing: 0.1em;
     font-family: 'Montez', cursive;
@@ -178,6 +178,44 @@ p {
     font-size: 18px;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstcontentsextaDivDois {
+    margin: 26px 0px 0px 5px;
+}
+
+.firstcontentsextaDivTitleContact{
+    width: auto;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    font-family: 'Montez', cursive;
+    border-bottom: 1px solid black;
+}
+
+.inputMessage {
+    background-color: rgb(255, 171, 190);
+    color: #A02C4D;
+    padding: 5px;
+    border-color: #6D3AB0;
+    text-overflow: ellipsis;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.botaoEnviar {
+    background-color: #A02C4D;
+    color: rgb(255, 171, 190);
+    border-radius: 0.5rem;
+    width: 25%;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.firstcontentsextaDivContactWays {
+    
 }
 
 .footer {
@@ -315,4 +353,13 @@ ul {
 .contentRight {
     text-align: left;
     width: 60%;
+}
+
+.contentPartoInfo {
+    text-decoration: underline;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: #000;
+    line-height: 1.6em;
+    font-family: 'Amatic SC', cursive;
 }

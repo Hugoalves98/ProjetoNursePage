@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="sextaDiv" id="contateme">
-            <div class="firstcontentsextaDiv">
+            <div class="firstcontentsextaDiv w-50">
                 <div class="firstcontentsextaDivTitle">
                     <p>Onde atendo</p>
                 </div>
@@ -91,7 +91,38 @@
                     <p>Tel: (21) 3518-2762</p>
                 </div>
             </div>
+
+            <div class="firstcontentsextaDivDois">
+                <div class="firstcontentsextaDivTitleContact">
+                    <p>Envie-me uma mensagem</p>
+                </div>
+                <form action="https://formsubmit.co/hugorochalves@gmail.com" method="POST">
+
+                    <div class="mb-3 mt-3">
+                        <input type="name" class="inputMessage" id="exampleInputName" placeholder="Digite seu nome" name="name" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <input type="email" class="inputMessage" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Digite seu email para resposta" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                      <textarea placeholder="Digite sua dúvida" class="inputMessage" name="message" rows="5" style="resize: none;" required></textarea>
+                    </div>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/home.html">
+
+                    <button type="submit" class="botaoEnviar">Enviar</button>
+                </form>
+                <div class="firstcontentsextaDivContactWays mt-4">
+                    <p class="dados mt-3" style="color:black; letter-spacing: 2px; font-weight: 400;"> <span>EMAIL: </span> erika@gmail.com</p>
+                    <p class="dados mt-3" style="color:black; letter-spacing: 2px; font-weight: 400;"> <span>INSTAGRAM: </span> enfaerikaclaro</p>
+                    <p class="dados mt-3" style="color:black; letter-spacing: 2px; font-weight: 400;"> <span>WHATSAPP: </span> +55 21 99674-1455</p>
+                </div>
+            </div>
         </div>
+        
         <a href="https://api.whatsapp.com/send?phone=5521 996741455&text=Olá" class="icon" target="_blank">
             <img src="images/icons8-whatsapp.gif" class="img-fluid" alt="...">
         </a>
